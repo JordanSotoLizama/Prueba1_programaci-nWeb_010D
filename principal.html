@@ -20,25 +20,25 @@
 <body>
     <!-- NAVBAR -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="imagenes/logo.png" alt="pizza" width="60rem"> Huesi's Pizza</a>
+            <a class="navbar-brand text-warning" href="principal.html"><img src="imagenes/logo.png" alt="pizza" width="60rem"> Huesi's Pizza</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active text-white" aria-current="page" href="principal.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Premium</a>
+                        <a class="nav-link text-white" href="premium.html">Premium</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Vegetariana</a>
+                        <a class="nav-link text-white" href="vegetariana.html">Vegetariana</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sabores del mundo</a>
+                        <a class="nav-link text-white" href="mundo.html">Sabores del mundo</a>
                     </li>
                 </ul>
             </div>
@@ -74,7 +74,7 @@
     <!-- TEXTO PAGINA -->
 
     <div id="ribbon">
-        <div id="birthday" class="container w-50 pl-5 pr-5 rounded-lg">
+        <div id="birthday" class="containerRibbon container w-50 pl-5 pr-5 rounded-lg">
             <!-- slide -->
             <div class="row align-items-center">
                 <div class="col-sm col-sm p-3" id="description">
@@ -84,6 +84,7 @@
                 <div class="col-sm p-3 text-light text-center">
                     <h4 class="text-warning ">Huesoli´s Pizza</h4>
                     <p class="text-shadow">Hacemos las mejores pizzas de chile con los más altos estándares de calidad</p>
+                    <p class="text-shadow">+56 934654487</p>
                 </div>
             </div>
             <!-- SLIDE-->
@@ -108,34 +109,37 @@
     <div id="trabajos">
         <div class="container-md p-5">
             <div class="row pt-5">
-                <h3 class="text-center pb-5 pt-5 h1"> Ultimos trabajos realizados</h3>
+                <h3 class="text-center pb-5 pt-5 h1">Categorias</h3>
             </div>
 
 
-            <div class="row">
+            <div class="row pb-5">
                 <div class="col-sm">
                     <div class="card w-100 card-border mb-5">
-                        <img src="imagenes/pizza4.jpg" class="card-img-top" alt="...">
+                        <a href="premium.html"><img src="imagenes/pizza4.jpg" class="card-img-top" alt="..."></a>
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-text">Premium</h5>
+                            <p class="card-text">Pizzas con mayor cantidad de ingredientes y bordes rellenos, perfectas para una gran reunion.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-sm">
                     <div class="card w-100 card-border mb-5">
-                        <img src="imagenes/pizza4.jpg" class="card-img-top" alt="...">
+                        <a href="vegetariana.html"><img src="imagenes/pizza4.jpg" class="card-img-top" alt="..."></a>
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-text">Vegetarianas</h5>
+                            <p class="card-text">Pizzas hechas con ingredientes vegetarianos, ideal para gente vegetariana o para probar un nuevo sabor.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-sm">
                     <div class="card w-100 card-border mb-5">
-                        <img src="imagenes/pizza4.jpg" class="card-img-top" alt="...">
+                        <a href="mundo.html"><img src="imagenes/pizza4.jpg" class="card-img-top" alt="..."></a>
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-text">Sabores del mundo</h5>
+                            <p class="card-text">Pizzas clasicas de cada pais, ideales para probar nuevos sabores y descubrir ingredientes exoticos.</p>
                         </div>
                     </div>
                 </div>
@@ -153,8 +157,8 @@
 
             </div>
             <div class="col-md-4">
-                <p class="textoFooter">Algo de texto</p>
-
+                <p class="textoFooter">Contacto</p>
+                <p class="textoFooter">+56 934654487</p>
             </div>
         </div>
     </footer>

@@ -4,52 +4,118 @@
 <head>
     <meta charset="UTF-8">
     <title>Pizzas del mundo</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilosjord.css">
     <meta name="viewport" content="widht=device-widht, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
-<body>
+<body style="background-color: #212529;">
 
-    <h1 class="title">Pizzas del mundo</h1>
+    <!-- NAVBAR -->
 
-    <div class="container">
-
-        <div class="card">
-            <img src="https://images.telepizza.com/vol/cl/images/content/productos/pial_c.png">
-            <h4>Pizza Alemana Familiar</h4>
-            <p>Queso Mozarella, Salchicha Italiana, Choricillo.</p>
-            <div class="texto">
-                <p>Calorias: 342 <br> Grasa: 11,4g <br> Grasa Saturada: 7,3g <br> Sal: 1,645g</p>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand text-warning" href="principal.html"><img src="imagenes/logo.png" alt="pizza" width="60rem"> Huesi's Pizza</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="principal.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="premium.html">Premium</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="vegetariana.html">Vegetariana</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="mundo.html">Sabores del mundo</a>
+                    </li>
+                </ul>
             </div>
-            <div class="precio">
-                <h4>$14.990</h4>
+        </div>
+    </nav>
+
+    <!-- CARTAS -->
+
+    <h1 class="title pt-5 pb-5">Pizzas del mundo</h1>
+
+    <div class="container" id="contenedorTarjeta">
+
+
+        <div class="row pb-5">
+            <div class="col-sm">
+                <div class="card mb-5">
+                    <img src="https://images.telepizza.com/vol/cl/images/content/productos/pial_c.png">
+                    <h4>Pizza Alemana Familiar</h4>
+                    <p>Queso Mozarella, Salchicha Italiana, Choricillo.</p>
+                    <div class="texto">
+                        <p>Calorias: 342 <br> Grasa: 11,4g <br> Grasa Saturada: 7,3g <br> Sal: 1,645g</p>
+                    </div>
+                    <div class="precio">
+                        <h4>$14.990</h4>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="card">
-            <img src="https://images.telepizza.com/vol/cl/images/content/productos/pzi2_d.jpg">
-            <h4>Pizza Italiana Familiar</h4>
-            <p>Queso Mozarella, Jamón, Tomates frescos.</p>
-            <div class="texto">
-                <p>Calorias: 266 <br> Grasa: 14,4g <br> Grasa Saturada: 6,2g <br> Sal: 1,845g</p>
-            </div>
-            <div class="precio">
-                <h4>$14.990</h4>
+
+        <div class="row pb-5">
+            <div class="col-sm">
+
+                <div class="card mb-5">
+                    <img src="https://images.telepizza.com/vol/cl/images/content/productos/pzi2_d.jpg">
+                    <h4>Pizza Italiana Familiar</h4>
+                    <p>Queso Mozarella, Jamón, Tomates frescos.</p>
+                    <div class="texto">
+                        <p>Calorias: 266 <br> Grasa: 14,4g <br> Grasa Saturada: 6,2g <br> Sal: 1,845g</p>
+                    </div>
+                    <div class="precio">
+                        <h4>$14.990</h4>
+                    </div>
+                </div>
+
             </div>
         </div>
 
-        <div class="card">
-            <img src="https://images.telepizza.com/vol/cl/images/content/productos/phw1_c.png">
-            <h4>Pizza Hawaiana Familiar</h4>
-            <p>Queso Mozarella, Jamón, Piña fresca.</p>
-            <div class="texto">
-                <p>Calorias: 351 <br> Grasa: 19,7g <br> Grasa Saturada: 5,1g <br> Sal: 1,347g</p>
-            </div>
-            <div class="precio">
-                <h4>$16.500</h4>
+
+        <div class="row pb-5">
+            <div class="col-sm">
+
+                <div class="card mb-5">
+                    <img src="https://images.telepizza.com/vol/cl/images/content/productos/phw1_c.png">
+                    <h4>Pizza Hawaiana Familiar</h4>
+                    <p>Queso Mozarella, Jamón, Piña fresca.</p>
+                    <div class="texto">
+                        <p>Calorias: 351 <br> Grasa: 19,7g <br> Grasa Saturada: 5,1g <br> Sal: 1,347g</p>
+                    </div>
+                    <div class="precio">
+                        <h4>$16.500</h4>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+
+    <footer>
+        <div class="row text-center">
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-4">
+                <p class="textoFooter">Contacto</p>
+                <p class="textoFooter">+56 934654487</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
 
 </body>
 
